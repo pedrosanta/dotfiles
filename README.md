@@ -1,2 +1,2 @@
-# dotfiles
-⚙ My configuration and dot files.
+# ⚙ pedrosanta / dotfiles
+My collection of configuration and dotfiles, based on @mathiasbynens/dotfiles.
