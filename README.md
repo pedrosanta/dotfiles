@@ -3,11 +3,15 @@ My collection of configuration and dotfiles, based on [mathiasbynens/dotfiles](h
 
 ## Installation
 
+(To document the first step, clone the repository, where to, etc.)
+
 Much like the abovementioned project, to setup/install the dotfiles just run:
 
 ```
 source bootstrap.sh
 ```
+
+(To document how to update the files, and how to use the project when you make changes to the files/dotfiles.)
 
 ## See also
 
