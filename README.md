@@ -6,7 +6,7 @@ My collection of configuration and dotfiles, based on [mathiasbynens/dotfiles](h
 Much like the abovementioned project, to setup/install the dotfiles just run:
 
 ```
-./bootstrap.sh
+source bootstrap.sh
 ```
 
 ## See also
