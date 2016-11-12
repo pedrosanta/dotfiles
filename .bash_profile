@@ -16,3 +16,8 @@ alias hideFiles='defaults write com.apple.finder AppleShowAllFiles NO; killall F
 # Sourcetree
 alias sourcetree='open -a SourceTree'
 
+# Bash Auto Completion
+# As per: https://github.com/bobthecow/git-flow-completion/wiki/Install-Bash-git-completion
+if [ -f $(brew --prefix)/etc/bash_completion ]; then
+	. $(brew --prefix)/etc/bash_completion
+fi
