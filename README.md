@@ -1,17 +1,27 @@
 # ⚙ pedrosanta / dotfiles
-My collection of configuration and dotfiles, based on [mathiasbynens/dotfiles](https://github.com/mathiasbynens/dotfiles).
+My collection of configuration and dotfiles, based on [mathiasbynens/dotfiles](https://github.com/mathiasbynens/dotfiles) repository.
 
 ## Installation
 
-(To document the first step, clone the repository, where to, etc.)
+Clone the repository to wherever you want.
 
-Much like the abovementioned project, to setup/install the dotfiles just run:
+```
+git clone git@github.com:pedrosanta/dotfiles.git
+```
+
+Much like the abovementioned project, to setup/install the dotfiles `cd` into your `dotfiles` repository and run:
 
 ```
 source bootstrap.sh
 ```
 
-(To document how to update the files, and how to use the project when you make changes to the files/dotfiles.)
+### Update and usage
+
+When you need to update the dotfiles, **update them on the repository** and run the script again, since it will overwrite the files on your home folder and ignore any changes you've made to them.
+
+```
+source bootstrap.sh
+```
 
 ## See also
 
