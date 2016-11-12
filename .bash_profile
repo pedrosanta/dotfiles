@@ -21,3 +21,6 @@ alias sourcetree='open -a SourceTree'
 if [ -f $(brew --prefix)/etc/bash_completion ]; then
 	. $(brew --prefix)/etc/bash_completion
 fi
+
+# Add git branch to prompt
+export PS1='\h:\W \u$(__git_ps1)\$ '
