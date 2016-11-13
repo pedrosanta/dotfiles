@@ -36,4 +36,4 @@ Here are some more resources on dotfiles I think may be worth looking to:
 
 ## License
 
-This code is available under the [MIT license](LICENSE).
+This code is available under the [MIT license](LICENSE-MIT.txt).
