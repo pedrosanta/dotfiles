@@ -1,27 +1,45 @@
 # ⚙ pedrosanta / dotfiles
-My collection of configuration and dotfiles, based on [mathiasbynens/dotfiles](https://github.com/mathiasbynens/dotfiles) repository.
+My collection of configuration and dotfiles, based on [mathiasbynens/dotfiles](https://github.com/mathiasbynens/dotfiles) repository. It's mostly built to work with **macOS**, **bash** shell and native **Terminal.app**, so if your preferences differ you may need to adjust further.
 
 ## Installation
 
+These are the steps I usually follow to set up a new Mac.
+
+Install [Homebrew](http://brew.sh).
+
 Clone the repository to wherever you want.
 
-```
+```shell
 git clone git@github.com:pedrosanta/dotfiles.git
 ```
 
-Much like the abovementioned project, to setup/install the dotfiles `cd` into your `dotfiles` repository and run:
+This repository tries to follow the above mentioned project. So, to start, `cd` into your local `dotfiles` repository and run the [`.macos`](.macos) script to set up/config Terminal.app and other defaults, and to install needed components (check the file to know more):
 
+```shell
+./.macos
 ```
-source bootstrap.sh
+
+Now, lets config Homebrew and install some taps (including [Caskroom](https://caskroom.github.io)) and formulae (again, check the file to know more about what will be installed):
+
+```shell
+./brew.sh
+```
+
+Finally, run to copy your dotfiles and set up your home folder:
+
+```shell
+./bootstrap.sh
 ```
 
 ### Update and usage
 
 When you need to update the dotfiles, **update them on the repository** and run the script again, since it will overwrite the files on your home folder and ignore any changes you've made to them.
 
+```shell
+./bootstrap.sh
 ```
-source bootstrap.sh
-```
+
+**Note:** When you install more packages through Homebrew/`brew` and you want to make those part of your init/bootstrap process, update the [`bower.sh`](bower.sh) file accordingly. Also, note, you can run it safely again to install any missing package, as it will skip those already installed.
 
 ## See also
 

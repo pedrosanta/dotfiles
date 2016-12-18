@@ -13,9 +13,6 @@ export PATH=$PATH:$HOME/Library/Android/sdk/platform-tools
 alias showFiles='defaults write com.apple.finder AppleShowAllFiles YES; killall Finder /System/Library/CoreServices/Finder.app'
 alias hideFiles='defaults write com.apple.finder AppleShowAllFiles NO; killall Finder /System/Library/CoreServices/Finder.app'
 
-# Sourcetree
-alias sourcetree='open -a SourceTree'
-
 # Bash Auto Completion
 # As per: https://github.com/bobthecow/git-flow-completion/wiki/Install-Bash-git-completion
 if [ -f $(brew --prefix)/etc/bash_completion ]; then
