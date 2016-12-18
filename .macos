@@ -6,6 +6,8 @@
 # Terminal                                                                    #
 ###############################################################################
 
+echo "[.macos] Setting up Terminal.app, installing and setting up custom theme."
+
 # Use the modified version of the Smyck theme by default in Terminal.app
 osascript <<EOD
 tell application "Terminal"
@@ -39,3 +41,22 @@ tell application "Terminal"
 	end repeat
 end tell
 EOD
+
+###############################################################################
+# Homebrew                                                                    #
+###############################################################################
+
+#echo "[.macos] Installing Homebrew."
+
+#/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+###############################################################################
+# RVM                                                                         #
+###############################################################################
+
+echo "[.macos] Installing RVM."
+
+\curl -sSL https://get.rvm.io | bash -s stable
+
+
+echo "[.macos] Done. Note that some of these changes require a logout/restart to take effect."
