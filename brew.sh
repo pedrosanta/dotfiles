@@ -10,6 +10,13 @@ brew upgrade
 brew install git # System git it's ok, but we install this to get and load the git bash auto complete script
 brew install bash-completion
 
+# Install Homebrew completions tap. See https://github.com/Homebrew/homebrew-completions
+brew tap homebrew/completions
+
+# Install completions.
+brew install docker-completion
+brew install docker-compose-completion
+
 # Install Caskroom tap.
 brew tap caskroom/cask
 
@@ -19,6 +26,7 @@ brew tap caskroom/cask
 #brew cask install google-chrome
 brew cask install spotify
 brew cask install sublime-text
+brew cask install docker
 brew cask install sourcetree
 brew cask install steam
 brew cask install itsycal
