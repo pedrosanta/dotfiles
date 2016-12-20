@@ -29,6 +29,7 @@ brew cask install sublime-text
 brew cask install docker
 brew cask install sourcetree
 brew cask install steam
+brew cask install flux
 brew cask install itsycal
 brew cask install typora
 brew cask install vlc
