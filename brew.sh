@@ -21,7 +21,7 @@ brew install docker-compose-completion
 brew tap caskroom/cask
 
 # Install binary 'casks'
-#brew cask install dropbox
+brew cask install dropbox
 #brew cask install 1password
 #brew cask install google-chrome
 brew cask install spotify
