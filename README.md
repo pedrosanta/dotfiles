@@ -1,31 +1,21 @@
 # ⚙ pedrosanta / dotfiles
-My collection of configuration and dotfiles, based on [mathiasbynens/dotfiles](https://github.com/mathiasbynens/dotfiles) repository. It's mostly built to work with **macOS**, **bash** shell and native **Terminal.app**, so if your preferences differ you may need to adjust further.
+My collection of configuration and dotfiles, mostly set to work with **macOS**, **bash** shell and native **Terminal.app**, so if your preferences differ you may need to adjust further.
+
+It makes use of [GNU Stow](https://www.gnu.org/software/stow/), a very simple and interesting symlink tool [particularly useful to help manage dotfiles repositories](http://brandon.invergo.net/news/2012-05-26-using-gnu-stow-to-manage-your-dotfiles.html).
 
 ## Installation
 
-These are the steps I usually follow to set up a new Mac.
+Installing these dotfiles and bootstrapping a new Mac is simple, just follow the next steps.
 
 Install [Homebrew](http://brew.sh).
 
-Clone the repository to wherever you want.
+Clone the repository to `~/.dotfiles` folder, like so.
 
 ```shell
-git clone git@github.com:pedrosanta/dotfiles.git
+git clone git@github.com:pedrosanta/dotfiles.git ~/.dotfiles
 ```
 
-This repository tries to follow the above mentioned project. So, to start, `cd` into your local `dotfiles` repository and run the [`.macos`](.macos) script to set up/config Terminal.app and other defaults, and to install needed components (check the file to know more):
-
-```shell
-./.macos
-```
-
-Now, lets config Homebrew and install some taps (including [Caskroom](https://caskroom.github.io)) and formulae (again, check the file to know more about what will be installed):
-
-```shell
-./brew.sh
-```
-
-Finally, run to copy your dotfiles and set up your home folder:
+Finally, run the `bootstrap.sh` to set initial config/defaults, install Homebrew packages/apps and set up the dotfiles:
 
 ```shell
 ./bootstrap.sh
@@ -33,22 +23,19 @@ Finally, run to copy your dotfiles and set up your home folder:
 
 ### Update and usage
 
-When you need to update the dotfiles, **update them on the repository** and run the script again, since it will overwrite the files on your home folder and ignore any changes you've made to them.
+The beforementioned `bootstrap.sh` is more suited to be run to bootstrap new systems. Though, if you happen to pull updates to your dotfiles, or update your desired Homebrew packages/apps, you can run the scripts in separate:
 
-```shell
-./bootstrap.sh
-```
-
-**Note:** When you install more packages through Homebrew/`brew` and you want to make those part of your init/bootstrap process, update the [`bower.sh`](bower.sh) file accordingly. Also, note, you can run it safely again to install any missing package, as it will skip those already installed.
+- Run `./brew.sh` if you have update it's package or apps list, you can also use this script to update and upgrade installed formulae;
+- Run `./install.sh` to re-install/re-symlink dotfiles, for instance, in the case you have pulled updates with new dotfile folders;
 
 ## See also
 
 Here are some more resources on dotfiles I think may be worth looking to:
 
-* [mathiasbynens/dotfiles](https://github.com/mathiasbynens/dotfiles), dotfiles repository and sensible hacker defaults for macOS, from which this repository draws much inspiration from;
-
 - [dotfiles](https://dotfiles.github.io), an unofficial guide to dotfiles on GitHub and amazing list of dotfiles resources, projects, repositories and management tools;
 - [Managing your dotfiles](https://medium.com/@webprolific/managing-your-dotfiles-7d2725297304#.tp50yawhy), a very brief overview to how can you manage your dotfiles;
+- [Using GNU Stow to manage your dotfiles](http://brandon.invergo.net/news/2012-05-26-using-gnu-stow-to-manage-your-dotfiles.html), learn to use this pretty useful symlink tool to manage your dotfiles;
+- [mathiasbynens/dotfiles](https://github.com/mathiasbynens/dotfiles), dotfiles repository and sensible hacker defaults for macOS;
 - [webpro/awesome-dotfiles](https://github.com/webpro/awesome-dotfiles), a curated list of dotfiles resources inspired by the awesome list;
 - And of course, [the huge list of dotfiles repositories on GitHub](https://github.com/search?q=dotfiles&s=stars&type=Repositories) to draw more ideas and inspiration;
 

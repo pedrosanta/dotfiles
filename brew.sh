@@ -9,6 +9,7 @@ brew upgrade
 # Install packages
 brew install git # System git it's ok, but we install this to get and load the git bash auto complete script
 brew install bash-completion
+brew install stow
 
 # Install Homebrew completions tap. See https://github.com/Homebrew/homebrew-completions
 brew tap homebrew/completions
@@ -29,6 +30,7 @@ brew cask install sublime-text
 brew cask install docker
 brew cask install sourcetree
 brew cask install steam
+brew cask install skype # Meh.
 brew cask install flux
 brew cask install itsycal
 brew cask install typora
