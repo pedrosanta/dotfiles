@@ -23,10 +23,10 @@ Finally, run the `bootstrap.sh` to set initial config/defaults, install Homebrew
 
 ### Update and usage
 
-The beforementioned `bootstrap.sh` is more suited to be run to bootstrap new systems. Though, if you happen to pull updates to your dotfiles, or update your desired Homebrew packages/apps, you can run the scripts in separate:
+The before mentioned `bootstrap.sh` is best suited to bootstrap new systems. If you happen to pull updates to your dotfiles, or update your desired Homebrew packages/apps, you can run the scripts in separate:
 
-- Run `./brew.sh` if you have update it's package or apps list, you can also use this script to update and upgrade installed formulae;
-- Run `./install.sh` to re-install/re-symlink dotfiles, for instance, in the case you have pulled updates with new dotfile folders;
+- Run `./brew.sh` if you have updated the package or apps list, you can also use this script to update and upgrade installed formulae;
+- Run `./install.sh` to re-install/re-symlink dotfiles, for instance, in the case you've pulled new dotfiles that need to be symlinked;
 
 ## See also
 
