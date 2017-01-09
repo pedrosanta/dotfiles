@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 
-stow bash
-stow sublime
+stow --ignore ".DS_Store" bash
+stow --ignore ".DS_Store" sublime
