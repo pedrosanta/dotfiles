@@ -22,6 +22,11 @@ brew install docker-compose-completion
 brew tap caskroom/cask
 
 # Install binary 'casks'
+## System Essentials
+brew cask install itsycal
+brew cask install flux
+brew cask install skyfonts
+## Other
 brew cask install dropbox
 #brew cask install 1password
 #brew cask install google-chrome
@@ -29,10 +34,9 @@ brew cask install spotify
 brew cask install sublime-text
 brew cask install docker
 brew cask install sourcetree
+brew cask install kitematic
 brew cask install steam
 brew cask install skype # Meh.
-brew cask install flux
-brew cask install itsycal
 brew cask install typora
 brew cask install vlc
 
