@@ -36,8 +36,10 @@ brew cask install docker
 brew cask install sourcetree
 brew cask install kitematic
 brew cask install steam
+brew cask install goofy
 brew cask install skype # Meh.
 brew cask install typora
+brew cask install utorrent
 brew cask install vlc
 
 # Remove outdated versions from the cellar
