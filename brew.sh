@@ -26,10 +26,11 @@ brew tap caskroom/cask
 brew cask install itsycal
 brew cask install flux
 brew cask install skyfonts
+brew cask install java # Meh.
 ## Other
 brew cask install dropbox
-#brew cask install 1password
-#brew cask install google-chrome
+brew cask install 1password
+brew cask install google-chrome
 brew cask install spotify
 brew cask install sublime-text
 brew cask install docker
@@ -39,6 +40,8 @@ brew cask install steam
 brew cask install goofy
 brew cask install skype # Meh.
 brew cask install typora
+brew cask install duet
+brew cask install cyberduck
 brew cask install utorrent
 brew cask install vlc
 
