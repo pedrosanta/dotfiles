@@ -1,5 +1,5 @@
 {
-	"color_scheme": "Packages/Theme - Spacegray/base16-ocean.dark.tmTheme",
+	"color_scheme": "Packages/Theme - Spacegray/base16-ocean.light.tmTheme",
 	"enable_tab_scrolling": false,
 	"font_size": 13,
 	"ignored_packages":
@@ -9,5 +9,5 @@
 	"spacegray_sidebar_font_large": true,
 	"spacegray_tabs_font_large": true,
 	"spacegray_tabs_large": true,
-	"theme": "Spacegray.sublime-theme"
+	"theme": "Spacegray Light.sublime-theme"
 }
