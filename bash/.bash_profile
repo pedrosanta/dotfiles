@@ -21,3 +21,6 @@ fi
 
 # Add git branch to prompt
 export PS1='\h:\W \u$(__git_ps1)\$ '
+
+# Enable tab autocompletion cycling - https://superuser.com/questions/288714/bash-autocomplete-like-zsh
+bind 'TAB:menu-complete'
