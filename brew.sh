@@ -32,18 +32,19 @@ brew cask install dropbox
 brew cask install 1password
 brew cask install google-chrome
 brew cask install spotify
+brew cask install spotify-notifications
 brew cask install sublime-text
 brew cask install docker
 brew cask install sourcetree
 brew cask install kitematic
 brew cask install steam
-brew cask install goofy
 brew cask install skype # Meh.
 brew cask install typora
 brew cask install duet
 brew cask install cyberduck
 brew cask install utorrent
 brew cask install vlc
+brew cask install keka
 
 # Remove outdated versions from the cellar
 brew cleanup
