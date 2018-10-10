@@ -11,17 +11,11 @@ brew install git # System git it's ok, but we install this to get and load the g
 brew install bash-completion
 brew install stow
 
-# Install Homebrew completions tap. See https://github.com/Homebrew/homebrew-completions
-brew tap homebrew/completions
-
 # Install completions.
 brew install docker-completion
 brew install docker-compose-completion
 
-# Install Caskroom tap.
-brew tap caskroom/cask
-
-# Install binary 'casks'
+# Install binary Caskroom 'casks'
 ## System Essentials
 brew cask install itsycal
 brew cask install flux
