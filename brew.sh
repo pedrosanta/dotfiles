@@ -15,6 +15,10 @@ brew install stow
 brew install docker-completion
 brew install docker-compose-completion
 
+# Install Homebrew legacy cask versions tap. See https://github.com/Homebrew/homebrew-cask-versions
+# Needed for 1password6 cask.
+brew tap homebrew/cask-versions
+
 # Install binary Caskroom 'casks'
 ## System Essentials
 brew cask install itsycal
@@ -23,7 +27,7 @@ brew cask install skyfonts
 brew cask install java # Meh.
 ## Other
 brew cask install dropbox
-brew cask install 1password
+brew cask install 1password6
 brew cask install google-chrome
 brew cask install spotify
 brew cask install spotify-notifications
