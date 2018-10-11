@@ -32,7 +32,7 @@ brew cask install docker
 brew cask install sourcetree
 brew cask install kitematic
 brew cask install steam
-brew cask install aluxian-messenger
+brew cask install caprine
 brew cask install skype # Meh.
 brew cask install typora
 brew cask install duet
