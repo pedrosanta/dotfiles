@@ -37,7 +37,7 @@ brew cask install skype # Meh.
 brew cask install typora
 brew cask install duet
 brew cask install cyberduck
-brew cask install utorrent
+brew cask install transmission
 brew cask install vlc
 brew cask install keka
 
