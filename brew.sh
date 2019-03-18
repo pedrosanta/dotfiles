@@ -22,7 +22,6 @@ brew tap homebrew/cask-versions
 # Install binary Caskroom 'casks'
 ## System Essentials
 brew cask install itsycal
-#brew cask install flux # Disabling this for now, as I've been using macOS native Night Shift
 brew cask install skyfonts
 brew cask install java # Meh.
 ## Other
