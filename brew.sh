@@ -36,7 +36,7 @@ brew cask install docker
 brew cask install sourcetree
 brew cask install kitematic
 brew cask install steam
-brew cask install caprine
+brew cast install whatsapp
 brew cask install skype # Meh.
 brew cask install typora
 brew cask install duet
