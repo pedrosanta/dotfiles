@@ -26,7 +26,9 @@ if [ -f $(brew --prefix)/etc/bash_completion ]; then
 fi
 
 # Add git branch to prompt
-export PS1='\h:\W \u$(__git_ps1)\$ '
+export PS1='\[\e[32m\]\h\[\e[m\]:\[\e[34m\]\w\[\e[m\] \u$(__git_ps1)\$ '
 
 # Enable tab autocompletion cycling - https://superuser.com/questions/288714/bash-autocomplete-like-zsh
 bind 'TAB:menu-complete'
+
+export CLICOLOR=1
