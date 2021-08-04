@@ -1,12 +1,14 @@
 {
-	"color_scheme": "Packages/User/SublimeLinter/base16-ocean.dark (SL).tmTheme",
+	"color_scheme": "Packages/Theme - Spacegray/base16-ocean.dark.tmTheme",
+	"draw_white_space": "selection",
 	"enable_tab_scrolling": false,
+	"font_size": 12,
 	"ignored_packages":
 	[
-		"Vintage"
+		"Vintage",
 	],
 	"spacegray_sidebar_font_large": true,
 	"spacegray_tabs_font_large": true,
 	"spacegray_tabs_large": true,
-	"theme": "Spacegray.sublime-theme"
+	"theme": "Default.sublime-theme",
 }

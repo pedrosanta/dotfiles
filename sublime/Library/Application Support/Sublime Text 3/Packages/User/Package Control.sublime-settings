@@ -5,18 +5,24 @@
 	],
 	"installed_packages":
 	[
+		"A File Icon",
 		"AngularJS",
+		"Autoprefixer",
 		"Better CoffeeScript",
 		"EditorConfig",
 		"EJS",
 		"Emmet",
 		"Git",
+		"Handlebars",
+		"Indent XML",
 		"Jade",
 		"JsFormat",
+		"JSTL syntax",
+		"Laravel Blade Highlighter",
 		"LaTeXTools",
+		"New Moon Color Scheme",
 		"Package Control",
 		"Sass",
-		"Theme - Spacegray",
-		"TypeScript"
-	]
+		"Theme - Spacegray"
+	],
 }

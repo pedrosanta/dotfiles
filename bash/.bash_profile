@@ -32,3 +32,5 @@ export PS1='\[\e[32m\]\h\[\e[m\]:\[\e[34m\]\w\[\e[m\] \u$(__git_ps1)\$ '
 bind 'TAB:menu-complete'
 
 export CLICOLOR=1
+
+export PATH="/usr/local/bin:$PATH"
