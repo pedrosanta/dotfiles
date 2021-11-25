@@ -1,4 +1,4 @@
-# ⚙ pedrosanta / dotfiles
+# ⚙️ pedrosanta / dotfiles
 My collection of configuration and dotfiles, mostly set to work with **macOS**, **bash** shell and native **Terminal.app**, so if your preferences differ YMMV.
 
 It makes use of [GNU Stow](https://www.gnu.org/software/stow/), a very simple and interesting symlink tool [particularly useful to help manage dotfiles repositories](http://brandon.invergo.net/news/2012-05-26-using-gnu-stow-to-manage-your-dotfiles.html).
