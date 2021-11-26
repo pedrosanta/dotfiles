@@ -40,7 +40,7 @@ brew install keka
 brew install cyberduck
 brew install pingplotter
 brew install vlc
-brew install transmission
+brew install --cask transmission
 
 # Remove outdated versions from the cellar
 brew cleanup
