@@ -1,5 +1,5 @@
-# ⚙ pedrosanta / dotfiles
-My collection of configuration and dotfiles, mostly set to work with **macOS**, **bash** shell and native **Terminal.app**, so if your preferences differ YMMV.
+# ⚙️ pedrosanta / dotfiles
+My collection of configuration and dotfiles, mostly set to work with **macOS**, **zsh** shell and native **Terminal.app**, so if your preferences differ YMMV.
 
 It makes use of [GNU Stow](https://www.gnu.org/software/stow/), a very simple and interesting symlink tool [particularly useful to help manage dotfiles repositories](http://brandon.invergo.net/news/2012-05-26-using-gnu-stow-to-manage-your-dotfiles.html).
 
@@ -38,6 +38,7 @@ Here are some more resources on dotfiles I think may be worth looking to:
 - [mathiasbynens/dotfiles](https://github.com/mathiasbynens/dotfiles), dotfiles repository and sensible hacker defaults for macOS;
 - [webpro/awesome-dotfiles](https://github.com/webpro/awesome-dotfiles), a curated list of dotfiles resources inspired by the awesome list;
 - And of course, [the huge list of dotfiles repositories on GitHub](https://github.com/search?q=dotfiles&s=stars&type=Repositories) to draw more ideas and inspiration;
+- [Compreensive guide on zsh configuration](https://thevaluable.dev/zsh-install-configure-mouseless/);
 
 ## License
 

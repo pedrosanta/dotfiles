@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/zsh
 
 # Make sure we're using the latest Homebrew.
 brew update
@@ -7,42 +7,41 @@ brew update
 brew upgrade
 
 # Install packages
-brew install git # System git it's ok, but we install this to get and load the git bash auto complete script
-brew install bash-completion
+brew install wget
+brew install zsh-completions
 brew install stow
 
 # Install completions.
-brew install docker-completion
-brew install docker-compose-completion
+#brew install docker-completion
+#brew install docker-compose-completion
 
-# Install Homebrew legacy cask versions tap. See https://github.com/Homebrew/homebrew-cask-versions
-# Needed for 1password6 cask.
-brew tap homebrew/cask-versions
-
-# Install binary Caskroom 'casks'
+# Install casks
 ## System Essentials
-brew cask install itsycal
-brew cask install skyfonts
-brew cask install java # Meh.
+brew install itsycal
 ## Other
-brew cask install dropbox
-brew cask install 1password6
-brew cask install google-chrome
-brew cask install spotify
-brew cask install spotify-notifications
-brew cask install sublime-text
-brew cask install docker
-brew cask install sourcetree
-brew cask install kitematic
-brew cask install steam
-brew cast install whatsapp
-brew cask install skype # Meh.
-brew cask install typora
-brew cask install duet
-brew cask install cyberduck
-brew cask install transmission
-brew cask install vlc
-brew cask install keka
+brew install 1password
+brew install google-chrome
+brew install sublime-text
+brew install sublime-merge
+brew install sourcetree
+brew install typora
+brew install --cask docker
+brew install slack
+brew install signal
+brew install whatsapp
+brew install skype
+brew install google-drive
+brew install dropbox
+brew install microsoft-office
+brew install adobe-creative-cloud
+brew install spotify
+brew install surfshark
+brew install cloudflare-warp
+brew install keka
+brew install cyberduck
+brew install pingplotter
+brew install vlc
+brew install --cask transmission
 
 # Remove outdated versions from the cellar
 brew cleanup
