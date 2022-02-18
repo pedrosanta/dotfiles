@@ -7,6 +7,7 @@ brew update
 brew upgrade
 
 # Install packages
+brew install wget
 brew install zsh-completions
 brew install stow
 
