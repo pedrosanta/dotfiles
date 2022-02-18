@@ -38,6 +38,7 @@ Here are some more resources on dotfiles I think may be worth looking to:
 - [mathiasbynens/dotfiles](https://github.com/mathiasbynens/dotfiles), dotfiles repository and sensible hacker defaults for macOS;
 - [webpro/awesome-dotfiles](https://github.com/webpro/awesome-dotfiles), a curated list of dotfiles resources inspired by the awesome list;
 - And of course, [the huge list of dotfiles repositories on GitHub](https://github.com/search?q=dotfiles&s=stars&type=Repositories) to draw more ideas and inspiration;
+- [Compreensive guide on zsh configuration](https://thevaluable.dev/zsh-install-configure-mouseless/);
 
 ## License
 
